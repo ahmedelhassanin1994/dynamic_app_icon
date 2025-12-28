@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dynamic_app_icon.iml" filepath="$PROJECT_DIR$/.idea/dynamic_app_icon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/dynamic_app_icon_android.iml" filepath="$PROJECT_DIR$/android/dynamic_app_icon_android.iml" />
     </modules>
   </component>
 </project>
