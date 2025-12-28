@@ -22,11 +22,13 @@ class MethodChannelDynamicAppIcon extends DynamicAppIconPlatform {
     required String iconName,
     List<String>? aliases,
     String? packageName,
+  bool showAlert = true
   }) async {
     await methodChannel.invokeMethod<void>('changeIcon', {
       'iconName': iconName,
       'aliases': aliases,
       'packageName': packageName,
     });
+
   }
 }

@@ -8,14 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		164ED2FE63DD75EABDD779B0 /* DarkIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F968AB7EA231FA88DF30EC5F /* DarkIcon@2x.png */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
+		7FDA21CC845C48848B08C0D8 /* PrivateIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0C7BE60B20A279456103C97 /* PrivateIcon@2x.png */; };
+		8A76D319E5DD47F2769407D7 /* DarkIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B73636CCCAD47903BFAD39 /* DarkIcon@3x.png */; };
+		8F227AE8D5CE6A1F2E39660A /* ClassicIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72FF1482E20D9B605F1FBF16 /* ClassicIcon@3x.png */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		9BC3F9F098FE614B7426DEFF /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACF4250A33E2C8854CA77BE /* Pods_Runner.framework */; };
 		C089D2CE81F8FD32246AC936 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B38462325DC83A0C42586B0 /* Pods_RunnerTests.framework */; };
+		C1E69AACC08877805C9F132A /* PrivateIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 370BF4B4115C37CB44F7FA85 /* PrivateIcon@3x.png */; };
+		F24F9DFB807F95F4CF133A73 /* ClassicIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 724EC96A3C26D2439807F989 /* ClassicIcon@2x.png */; };
+		A1B2C3D4E5F6A7B8 /* ClassicIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7B9 /* ClassicIcon.png */; };
+		A1B2C3D4E5F6A7BA /* DarkIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7BB /* DarkIcon.png */; };
+		A1B2C3D4E5F6A7BC /* PrivateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6A7BD /* PrivateIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,9 @@
 		4B38462325DC83A0C42586B0 /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF3E2F98A2033B2DF486A91 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		56CCDEA45EFD194F34E1D052 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
+		68B73636CCCAD47903BFAD39 /* DarkIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dark/DarkIcon@3x.png"; sourceTree = "<group>"; };
+		724EC96A3C26D2439807F989 /* ClassicIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "classic/ClassicIcon@2x.png"; sourceTree = "<group>"; };
+		72FF1482E20D9B605F1FBF16 /* ClassicIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "classic/ClassicIcon@3x.png"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
@@ -65,6 +77,12 @@
 		D9F1066B0AAE5B53C6366D56 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E9193C46DFBFC6FD09E4DE51 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		EA98206F78471CD5439693B9 /* Pods-RunnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F968AB7EA231FA88DF30EC5F /* DarkIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "dark/DarkIcon@2x.png"; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7B9 /* ClassicIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = classic/ClassicIcon.png; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7BB /* DarkIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = dark/DarkIcon.png; sourceTree = "<group>"; };
+		A1B2C3D4E5F6A7BD /* PrivateIcon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = private/PrivateIcon.png; sourceTree = "<group>"; };
+		C0C7BE60B20A279456103C97 /* PrivateIcon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "private/PrivateIcon@2x.png"; sourceTree = "<group>"; };
+		370BF4B4115C37CB44F7FA85 /* PrivateIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "private/PrivateIcon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +179,15 @@
 				1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */,
 				74858FAE1ED2DC5600515810 /* AppDelegate.swift */,
 				74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */,
+				724EC96A3C26D2439807F989 /* ClassicIcon@2x.png */,
+				72FF1482E20D9B605F1FBF16 /* ClassicIcon@3x.png */,
+				F968AB7EA231FA88DF30EC5F /* DarkIcon@2x.png */,
+				68B73636CCCAD47903BFAD39 /* DarkIcon@3x.png */,
+				C0C7BE60B20A279456103C97 /* PrivateIcon@2x.png */,
+				370BF4B4115C37CB44F7FA85 /* PrivateIcon@3x.png */,
+				A1B2C3D4E5F6A7B9 /* ClassicIcon.png */,
+				A1B2C3D4E5F6A7BB /* DarkIcon.png */,
+				A1B2C3D4E5F6A7BD /* PrivateIcon.png */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -264,6 +291,15 @@
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
+				F24F9DFB807F95F4CF133A73 /* ClassicIcon@2x.png in Resources */,
+				8F227AE8D5CE6A1F2E39660A /* ClassicIcon@3x.png in Resources */,
+				164ED2FE63DD75EABDD779B0 /* DarkIcon@2x.png in Resources */,
+				8A76D319E5DD47F2769407D7 /* DarkIcon@3x.png in Resources */,
+				7FDA21CC845C48848B08C0D8 /* PrivateIcon@2x.png in Resources */,
+				C1E69AACC08877805C9F132A /* PrivateIcon@3x.png in Resources */,
+				A1B2C3D4E5F6A7B8 /* ClassicIcon.png in Resources */,
+				A1B2C3D4E5F6A7BA /* DarkIcon.png in Resources */,
+				A1B2C3D4E5F6A7BC /* PrivateIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

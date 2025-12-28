@@ -48,6 +48,29 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+  Future<void> _changeIcon(String type) async {
+    const namespacePackage = "com.example.dynamic_app_icon_example";
+    final aliases = [
+      "$namespacePackage.MainActivityClassic",
+      "$namespacePackage.MainActivityDark",
+      "$namespacePackage.MainActivityPrivate",
+    ];
+
+    String iconName;
+    if (Theme.of(context).platform == TargetPlatform.android) {
+      iconName = "$namespacePackage.MainActivity$type";
+    } else {
+      // For iOS, use the names defined in Info.plist
+      iconName = "${type}Icon";
+    }
+
+    try {
+      await DynamicAppIcon.setIcon(iconName: iconName, aliases: aliases);
+    } catch (e) {
+      debugPrint('Error: $e');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -59,60 +82,15 @@ class _MyAppState extends State<MyApp> {
             Center(child: Text('Running on: $_platformVersion\n')),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: () async {
-                const namespacePackage = "com.example.dynamic_app_icon_example";
-                final aliases = [
-                  "$namespacePackage.MainActivityClassic",
-                  "$namespacePackage.MainActivityDark",
-                  "$namespacePackage.MainActivityPrivate",
-                ];
-                try {
-                  await DynamicAppIcon.setIcon(
-                    iconName: '$namespacePackage.MainActivityClassic',
-                    aliases: aliases,
-                  );
-                } catch (e) {
-                  debugPrint('Error: $e');
-                }
-              },
+              onPressed: () => _changeIcon('Classic'),
               child: const Text('Set Classic Icon'),
             ),
             ElevatedButton(
-              onPressed: () async {
-                const namespacePackage = "com.example.dynamic_app_icon_example";
-                final aliases = [
-                  "$namespacePackage.MainActivityClassic",
-                  "$namespacePackage.MainActivityDark",
-                  "$namespacePackage.MainActivityPrivate",
-                ];
-                try {
-                  await DynamicAppIcon.setIcon(
-                    iconName: '$namespacePackage.MainActivityDark',
-                    aliases: aliases,
-                  );
-                } catch (e) {
-                  debugPrint('Error: $e');
-                }
-              },
+              onPressed: () => _changeIcon('Dark'),
               child: const Text('Set Dark Icon'),
             ),
             ElevatedButton(
-              onPressed: () async {
-                const namespacePackage = "com.example.dynamic_app_icon_example";
-                final aliases = [
-                  "$namespacePackage.MainActivityClassic",
-                  "$namespacePackage.MainActivityDark",
-                  "$namespacePackage.MainActivityPrivate",
-                ];
-                try {
-                  await DynamicAppIcon.setIcon(
-                    iconName: '$namespacePackage.MainActivityPrivate',
-                    aliases: aliases,
-                  );
-                } catch (e) {
-                  debugPrint('Error: $e');
-                }
-              },
+              onPressed: () => _changeIcon('Private'),
               child: const Text('Set Private Icon'),
             ),
           ],

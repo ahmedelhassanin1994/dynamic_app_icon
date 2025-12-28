@@ -1,7 +1,8 @@
 name: dynamic_app_icon
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: A flutter plugin for dynamically changing app icon
+version: 1.0.0
+repository: https://github.com/ahmedelhassanin1994/dynamic_app_icon
+issue_tracker: https://github.com/ahmedelhassanin1994/dynamic_app_icon/issues
 
 environment:
   sdk: ^3.8.1
